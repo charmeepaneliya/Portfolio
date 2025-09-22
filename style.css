@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1f2336;
+   
+}
+.home-img > img{
+    border-radius: 62% 38% 46% 54% / 48% 62% 38% 52% ;
+}
+.home{
+   
+  background: linear-gradient(45deg,#1f2336, #286676);
+
+}
+ /* background: linear-gradient(45deg, #286676,#1f2336); */
