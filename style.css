@@ -103,21 +103,30 @@ background: linear-gradient(90deg, #e0c3fc, #8ec5fc);
 /* service section */
 
 .card{
- box-shadow: #42a797 0px 1px 3px 0px, #42a797 0px 0px 0px 1px;
- border-radius: 40px;
+ /* box-shadow: #42a797 0px 1px 3px 0px, #42a797 0px 0px 0px 1px; */
+ border-radius: 10px;
  
  margin-bottom: 20px;
 }
-.card > img{
+/* .card > img{
   height: 300px !important;
   object-fit: cover;
   background-repeat: no-repeat;
   border-radius: 40px;
   
-}
+} */
 .card:hover{
   box-shadow: #42a797 0px 2px 4px 0px, #42a797 0px 2px 16px 0px;
   transition: all 1.2s;
   transform: scale(1.1);
   
+}
+
+.card-icon{
+  font-size: 30px;
+
+}
+
+.fndev{
+  margin-left: 50px;
 }
