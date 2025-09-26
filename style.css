@@ -54,13 +54,15 @@ background: linear-gradient(90deg, #e0c3fc, #8ec5fc);
  
 }
 
-.wav-svg{
-    /* position: relative;
-    bottom: 30px; */
-    background: linear-gradient(45deg,#3b3c36, #001347) !important;
-    /* background: linear-gradient(45deg,#1f2336, #286676); */
-    /* height: 500px;
-    width: 1950px; */
+.wav-hero{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: 720px;
+  height: 200px;
+  width: 100%;
+  
+ 
 }
 .hed-title{
       font-size: 1.5rem;
