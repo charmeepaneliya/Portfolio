@@ -19,16 +19,19 @@
 </head>
 
 <body>
-    <header class="fixed-top" style="background-color: #1f2336;">
-        <nav class="navbar  navbar-expand-lg bg-transperent">
-            <div class="container">
-                <a class=" hed-title navbar-brand text-white" href="#"><span style="color: #53d1be;">Charmee
+    <header>
+        <nav class="navbar  navbar-expand-lg ">
+            <div class="container-fluid nav-container">
+                <div>
+                    <a class=" hed-title navbar-brand text-white" href="#"><span style="color: #53d1be;">Charmee
                         Paneliya</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                </div>
+                
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
@@ -71,12 +74,14 @@
                 </div>
             </div>
         </nav>
+
+        
         
     </header>
 
     <main>
         <section id="Home">
-            <div class="container-fluid border ">
+            <div class="container-fluid ">
                 <div class="row home">
                     <div class="col-12 col-md-12 col-lg-6 text-white  mt-5 py-5 ">
                         <p
@@ -117,7 +122,7 @@
         </section>
 
         <section id="About">
-            <div class="container">
+            <div class="container animate__animated animate__fadeInUp ">
                 <div class="about-border">
                     <p class="display-1 text-white text-center mt-5">About <span style="color: #53d1be; ">Me</span> </p>
                     <hr class="w-25 text-white mx-auto mb-3" />
@@ -146,9 +151,9 @@
 
         <section id="Service">
 
-            <p class="h1 text-white text-center mt-5">Service</p>
-            <hr class="w-25 text-white mx-auto mb-5" />
-            <div class="container">
+            <p class="h1 text-white text-center mt-5 animate__animated animate__fadeInUp ">Service</p>
+            <hr class="w-25 text-white mx-auto mb-5 animate__animated animate__fadeInUp " />
+            <div class="container animate__animated animate__fadeInUp ">
                 <div class="row">
                     <div class="col-6">
                         <div class="card w-200 text-white" style="background-color:#1a1d30;">
@@ -260,10 +265,10 @@
         </section>
 
         <section id="Skills">
-             <p class="h1 text-white text-center mt-5">Skills</p>
-            <hr class="w-25 text-white mx-auto mb-5" />
+             <p class="h1 text-white text-center mt-5 animate__animated animate__fadeInUp ">Skills</p>
+            <hr class="w-25 text-white mx-auto mb-5 animate__animated animate__fadeInUp " />
 
-            <div class="container">
+            <div class="container animate__animated animate__fadeInUp ">
                 <div class="row gap-3">
                      <p class=" text-center fs-5" style="color:#53d1be;">Frontend Development</p>
                     <div class="col-1  text-center fndev pt-3" style="background-color:transparent;">
@@ -299,30 +304,36 @@
 
                <div class="row gap-5">
                      <p class=" text-center fs-5" style="color:#53d1be;">Backend Development</p>
-                    <div class="col-1  text-center fndev pt-3" style="background-color:transparent;">
-                        <i class="fa-brands fa-node-js display-1" style="color: #84bf09;"></i>
+                    <div class="col-1  text-center fndev pt-3 border skill-div" style="background-color:transparent;">
+                        <!-- <i class="fa-brands fa-node-js display-1" style="color: #84bf09;"></i> -->
+                          <img class="svg-img" src="svg/node-js-svgrepo-com.svg" alt="">
                         <p class="text-white mt-4">Node.js</p>
                         
                     </div>
-                    <div class="col-1  text-center fndev py-3" style="background-color:transparent;">
-                      <i class="fa-brands fa-square-js display-1" style="color: #FFD43B;"></i>
+                    <div class="col-1  text-center fndev py-3 border skill-div" style="background-color:transparent;">
+                      <!-- <i class="fa-brands fa-square-js display-1" style="color: #FFD43B;"></i> -->
+                       <img class="svg-img express-js" src="svg/js-square-svgrepo-com.svg" alt="">
                        <p class="text-white mt-4">Express.js</p>
                     </div>
-                    <div class="col-1  text-center fndev py-3" style="background-color:transparent;">
-                        <i class="fa-brands fa-square-js display-1" style="color: #FFD43B;"></i>
+                    <div class="col-1  text-center fndev py-3 border skill-div" style="background-color:transparent;">
+                        <!-- <i class="fa-brands fa-square-js display-1" style="color: #FFD43B;"></i> -->
+                         <img class="svg-img" src="svg/mongodb-logo-svgrepo-com.svg" alt="">
                         <p class="text-white mt-4">MongoDB</p>
                     </div>
-                    <div class="col-1  text-center fndev py-3" style="background-color:transparent;">
-                       <i class="fa-brands fa-bootstrap display-1" style="color: #8964f7;"></i>
+                    <div class="col-1  text-center fndev py-3 border skill-div" style="background-color:transparent;">
+                       <!-- <i class="fa-brands fa-bootstrap display-1" style="color: #8964f7;"></i> -->
+                        <img class="svg-img" src="svg/php-svgrepo-com.svg" alt="">
                        <p class="text-white mt-4">PHP</p>
                     </div>
-                    <div class="col-1  text-center fndev py-3" style="background-color:transparent;">
-                        <i class="ri-tailwind-css-fill display-1" style="color: #64f2f7;"></i>
+                    <div class="col-1  text-center fndev py-3 border skill-div" style="background-color:transparent;">
+                        <!-- <i class="ri-tailwind-css-fill display-1" style="color: #64f2f7;"></i> -->
+                         <img class="svg-img" src="svg/mysql-logo-svgrepo-com.svg" alt="">
                         <p class="text-white mt-4">MySQL</p>
                     </div>
                     
-                    <div class="col-1  text-center fndev py-3" style="background-color:transparent;">
-                      <i class="ri-nextjs-line display-1" style="color: #fcfdfd;"></i>
+                    <div class="col-1 text-center fndev py-3 border skill-div" style="background-color:transparent;">
+                      <!-- <i class="ri-nextjs-line display-1" style="color: #fcfdfd;"></i> -->
+                       <img class="svg-img" src="svg/api-svgrepo-com.svg" alt="">
                       <p class="text-white mt-4">API Development (REST/GraphQL)</p>
                     </div>
                 </div>

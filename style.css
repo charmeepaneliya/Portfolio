@@ -11,10 +11,24 @@ body{
     background-color: #1f2336;
     /* background-image: url(img/back-img2.jpg); */
    
-   
-    
-    
 }
+header{
+  position: fixed;
+  z-index: 10;
+  
+}
+
+.nav-container{
+  background-color: #00050d42;
+    backdrop-filter:blur(20px);
+   
+    border-bottom-right-radius:15px;
+    border-bottom-left-radius:15px ;
+   margin-left: 10px;
+
+  
+}
+
 .nav-link:hover{
   color: #53d1be !important;
   /* box-shadow: rgba(168, 171, 173, 0.1) 0px 4px 12px;
@@ -131,4 +145,14 @@ background: linear-gradient(90deg, #e0c3fc, #8ec5fc);
 
 .fndev{
   margin-left: 50px;
+}
+
+.svg-img{
+  height: 100px;
+  width: 100px;
+  
+}
+.skill-div{
+  height: 190px;
+  width: 130px;
 }
