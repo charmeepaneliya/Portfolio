@@ -4,12 +4,15 @@
     box-sizing: border-box;
      /* font-family: "Geologica", sans-serif; */
      font-family: "Average Sans", sans-serif;
+   
 }
 
 
 body{
     background-color: #1f2336;
     /* background-image: url(img/back-img2.jpg); */
+    
+  
    
 }
 .navbar{
@@ -30,6 +33,10 @@ body{
   
 } */
 
+#home{
+  position: relative;;
+}
+
 .nav-link:hover{
   color: #53d1be !important;
   /* box-shadow: rgba(168, 171, 173, 0.1) 0px 4px 12px;
@@ -38,9 +45,10 @@ body{
 
 .home-img > img{
     border-radius: 62% 38% 46% 54% / 48% 62% 38% 52% ;
-    height: 550px;
-  margin-left: 100px;
-  margin-top: 100px;
+    /* max-width: 450px;
+    max-height: 450px; */
+  /* margin-left: 100px;
+  margin-top: 100px; */
   
   /* position: relative;
   left: 150px; */
@@ -86,7 +94,7 @@ background: linear-gradient(90deg, #e0c3fc, #8ec5fc);
   position: absolute;
   bottom: 0;
   right: 0;
-  top: 830px;
+  /* top: 830px; */
   height: 200px;
   width: 100%;
   
@@ -172,10 +180,14 @@ background: linear-gradient(90deg, #e0c3fc, #8ec5fc);
   height: 190px;
   width: 120px;
 }
+.skill-text:hover{
+  color: #53d1be !important;
+}
 .skill-div:hover{
   transform: translateY(-20px);
  
   transition: all 1.2s;
+  
 }
 
 /* portfolio  */
@@ -184,3 +196,48 @@ background: linear-gradient(90deg, #e0c3fc, #8ec5fc);
   height: 190px;
 
 }
+
+
+/* Education */
+
+ .timeline {
+      position: relative;
+      padding-left: 30px;
+      border-left: 2px dotted #53d1be; /* Dotted green line */
+    }
+
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+    }
+
+    .timeline-item {
+      position: relative;
+      margin-bottom: 30px;
+    }
+
+    .timeline-item::before {
+      content: "";
+      position: absolute;
+      left: -37px;
+      top: 10px;
+      width: 12px;
+      height: 12px;
+      background-color: #53d1be;
+      border-radius: 50%;
+      z-index: 1;
+    }
+
+    /* .card:hover {
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+    } */
+
+    .section-title {
+      color: #53d1be;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
